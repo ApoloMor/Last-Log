@@ -1,0 +1,90 @@
+html {
+    font-family: "Roboto Mono", monospace;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #000000;
+    background-image: url('https://motionbgs.com/media/3335/topographic-textures.jpg');
+    background-size: 120%;
+  }
+  
+  #fundo {
+  
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 40px;
+    Border: 2px solid #000000;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  
+  
+  button {
+    margin-top: 55px;
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+  }
+  
+  button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms
+  }
+  
+  button:hover {
+    color: #e8e8e8;
+  }
+  
+  button:hover::before {
+    width: 100%;
+  }
+  
+  
+  .BemVindoDVolta h1 {
+    color: White;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .MeLembrar input {
+    accent-color: #000000;
+  }
+  
+  input:focus {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }

@@ -1,0 +1,201 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display: flex;
+    background-image: url('https://motionbgs.com/media/3335/topographic-textures.jpg');
+    background-size: 100%;
+  }
+  
+  img {
+    margin: auto;
+    margin-bottom: 50px;
+    margin-left: 700px;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+  
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.2)
+  }
+  
+  .CadastroEntrar {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+  
+  /*---------------------------------botão de Cadastrar*/
+  
+  
+  .btn1 {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: #262626;
+    background-color: white;
+  
+  }
+  
+  .btn1:hover {
+    background-color: #262626;
+    color: white;
+    transition: all .3s;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn1:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn1::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+  }
+  
+  .btn1::after {
+    background-color: #fff;
+  }
+  
+  .btn1:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  
+  
+  /*--------------------------------botão de entrar*/
+  
+  
+  .btn2 {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: #262626;
+    background-color: white;
+  }
+  
+  .btn2:hover {
+    background-color: #262626;
+    color: white;
+    transition: all .3s;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn2:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn2::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+  }
+  
+  .btn2::after {
+    background-color: #fff;
+  }
+  
+  .btn2:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  
+  /*---------------------------------------------------*/
+  
+  
+  
+  body {
+    color: white;
+    font-family: poppinsre;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  
+  #title {
+    flex-direction: column;
+    line-height: 10px;
+  }
+  
+  
+  h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  span {
+    color: #666666;
+    transition: all .3s;
+  }
+  
+  h2 :hover {
+    color: #383838;
+    transition: all .3s;
+  }
+  
+  p {
+    width: 500px;
+    height: 38px;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  }
+  
+  p:hover {
+    background-color: white;
+    color: #262626;
+    transform: scale(1.2)
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      width: 320px;
+      height: 620px;
+    }
+  }
